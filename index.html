@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Carrito de Compras</h1>
+    <div class="container">
+        <div class="productos">
+            <h2>Productos Disponibles</h2>
+            <ul id="lista-productos">
+                <li>
+                    <span>remera 1 - $2310</span>
+                    <button class="agregar">Agregar al Carrito</button>
+                </li>
+                <li>
+                    <span>pantalon 2 - $4000</span>
+                    <button class="agregar">Agregar al Carrito</button>
+                </li>
+                <li>
+                    <span>zapatillas 3 - $7000</span>
+                    <button class="agregar">Agregar al Carrito</button>
+                </li>
+            </ul>
+        </div>
+        <div class="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito">
+                <!-- Los productos se agregan aquí dinámicamente -->
+            </ul>
+            <p>Total: $<span id="total">0.00</span></p>
+            <button id="vaciar-carrito">VACIAR CARRITO</button>
+            
+        </div>
+    </div>
+    
+    
+    <script src="Productos.js"></script>
+    <script src="Item.js"></script>
+    <script src="carrito.js"></script>
+    
+</body>
+</html>
+
+
+
