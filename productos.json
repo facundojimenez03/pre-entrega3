@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "remera",
+        "precio": 40.00
+    },
+    {
+        "nombre": "pantalon",
+        "precio": 20.00
+    },
+    {
+        "nombre": "gorra",
+        "precio": 12.00
+    }
+]
